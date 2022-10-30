@@ -11,6 +11,8 @@
   flex-direction: column;
   gap: 30px;
   padding: 30px;
+  border-radius: 16px;
+  background: antiquewhite;
 }
 
 .header {
