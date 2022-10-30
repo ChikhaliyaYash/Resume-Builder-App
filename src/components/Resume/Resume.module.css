@@ -6,13 +6,19 @@
   flex: 1.2;
   height: fit-content;
   min-height: 900px;
-  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 30px;
-  border-radius: 16px;
-  background: antiquewhite;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.02);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+border: 1px solid rgba(255, 255, 255, 0.38);
+  /* background: #9BA17B; */
 }
 
 .header {
@@ -41,7 +47,7 @@
 }
 
 .header .link {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -109,7 +115,7 @@
 }
 
 .content .overview {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
 }
 
 .content .link {

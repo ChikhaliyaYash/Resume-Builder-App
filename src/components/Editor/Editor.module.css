@@ -7,17 +7,17 @@
   gap: 30px;
   /* box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.2); */
   /* From https://css.glass */
-background: rgba(216, 39, 39, 0.05);
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.02);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(7.2px);
--webkit-backdrop-filter: blur(7.2px);
-border: 1px solid rgba(216, 39, 39, 0.28);
+backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+border: 1px solid rgba(255, 255, 255, 0.38);
   padding-top: 5px;
   height: fit-content;
   margin: 0 auto;
   border-radius: 16px;
-
 }
 
 .header {
@@ -47,7 +47,7 @@ border: 1px solid rgba(216, 39, 39, 0.28);
 
 .header .active {
   border-bottom: 2px solid #239ce2;
-  color: #239ce2;
+  color: #61764b;
 }
 
 .body {
@@ -121,8 +121,8 @@ border: 1px solid rgba(216, 39, 39, 0.28);
   width: fit-content;
   padding: 8px 16px;
   border-radius: 5px;
-  background-color: #239ce2;
-  color: #fff;
+  background-color: #153462;
+  color: #000;
   outline: none;
   border: none;
   font-weight: 500;
