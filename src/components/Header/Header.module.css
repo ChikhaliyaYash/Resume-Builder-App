@@ -6,7 +6,12 @@
   align-items: center;
   justify-content: space-evenly;
   gap: 30px;
-  background-color: rgb(238, 252, 255);
+  background-size: cover;
+  /* background-image: linear-gradient(to right, #F98B88, #6C63FF,#8467D7); */
+  background-color:  #395144;
+  /* background-image: url("./Hex\ fade\ [1920\ x\ 1800].jpg"); */
+  /* background-image: linear-gradient(to right, #F98B88,gold); */
+
   min-height: 85vh;
 }
 
@@ -18,11 +23,22 @@
   line-height: 4.1rem;
   font-weight: bold;
   letter-spacing: 1px;
+  border-radius: 16px;
+/* From https://css.glass */
+background: rgba(240, 235, 206, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+border: 2px solid #111;
+  padding-top: 5px;
+  height: fit-content;
+  margin: 0 auto;
 }
 
 .heading span {
   background-clip: text;
-  background-image: linear-gradient(to right, #239ce2, #1369b9);
+  background-color: #AA8B56;
   color: transparent;
 }
 

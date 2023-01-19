@@ -179,7 +179,7 @@ const Resume = forwardRef((props, ref) => {
                 <span />
               )}
               {item.college ? (
-                <p className={styles.subTitle}>Some college name</p>
+                <p className={styles.subTitle}>Charotar University of Science and Technology (CHARUSAT)</p>
               ) : (
                 <span />
               )}

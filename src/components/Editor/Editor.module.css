@@ -1,6 +1,6 @@
 .container {
   min-width: 550px;
-  min-height: 450px;
+  min-height: 900px;
   max-width: 750px;
   display: flex;
   flex-direction: column;
@@ -8,23 +8,26 @@
   /* box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.2); */
   /* From https://css.glass */
   /* From https://css.glass */
-background: rgba(255, 255, 255, 0.02);
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(240, 235, 206, 0.21);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(9.7px);
 -webkit-backdrop-filter: blur(9.7px);
-border: 1px solid rgba(255, 255, 255, 0.38);
+border: 1px solid rgba(240, 235, 206, 0.14);
   padding-top: 5px;
   height: fit-content;
   margin: 0 auto;
   border-radius: 16px;
+  background-image: url();
 }
 
 .header {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 11px solid rgba(0, 0, 0, 0.1);
 }
 
 .header::-webkit-scrollbar {
@@ -40,14 +43,14 @@ border: 1px solid rgba(255, 255, 255, 0.38);
   padding: 10px;
   border-bottom: 2px solid transparent;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.8rem;
   white-space: nowrap;
   cursor: pointer;
 }
 
 .header .active {
   border-bottom: 2px solid #239ce2;
-  color: #61764b;
+  color: #D28D77;
 }
 
 .body {
@@ -121,12 +124,12 @@ border: 1px solid rgba(255, 255, 255, 0.38);
   width: fit-content;
   padding: 8px 16px;
   border-radius: 5px;
-  background-color: #153462;
-  color: #000;
+  background-color: #D28D77;
+  color: #F0EBCE;
   outline: none;
   border: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   display: flex;
   gap: 5px;

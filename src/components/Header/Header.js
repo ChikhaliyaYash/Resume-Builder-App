@@ -1,6 +1,6 @@
 import React from "react";
 
-import resumeSvg from "../../assets/resume.svg";
+import resumeSvg from "../../assets/undraw_online_cv_re_gn0a.svg";
 
 import styles from "./Header.module.css";
 
@@ -10,14 +10,14 @@ function Header() {
       <div className={styles.left}>
         <p className={styles.heading}>
           A <span>Resume</span> that stands out!
-        </p>
-        <p className={styles.heading}>
+        {/* </p> */}
+        {/* <p className={styles.heading}> */}
           Make your own resume. <span>It's free</span>
         </p>
       </div>
-      {/* <div className={styles.right}>
+      <div className={styles.right}>
         <img src={resumeSvg} alt="Resume" />
-      </div> */}
+      </div>
     </div>
   );
 }

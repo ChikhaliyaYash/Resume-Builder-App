@@ -1,0 +1,11 @@
+.toggle {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .container {
+    padding: 20px;
+  }
+  p {
+    color: red;
+  }

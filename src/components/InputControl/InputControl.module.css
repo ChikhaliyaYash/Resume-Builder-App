@@ -2,20 +2,23 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  color: #153462;
+  color: #AA8B56;
+  border: 1px;
 }
 
 label {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  
 }
 
 input {
-  border: 1px solid #cccccc;
+  border: 1px solid #F0EBCE;
   outline: none;
   padding: 10px 12px;
   font-size: 1rem;
   border-radius: 5px;
+  background-color: #F0EBCE;
 }
 
 input:hover {
